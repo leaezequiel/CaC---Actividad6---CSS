@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:10px;
+    color: lightgrey;
+}
+
+h1{
+    color: white;
+    text-align: center;/*para asignar posición*/
+}
+
+a{
+    color: lawngreen;
+    background-color: grey;
+    text-decoration: none;
+    margin: 5px auto;
+    float: right;
+    padding: 0 1em 0 0;
+}
+a:hover {
+    font-size:20px;
+    color:rgb(204, 24, 24);
+  }
+
+.direccion{
+    color:greenyellow;
+    visibility: hidden;
+}
+h2{
+    font-size: 20px;
+    background-color: forestgreen;
+}
+#rcorners {
+    border-radius: 15px 10px 20px 5px;
+    border: 2px solid #73AD21;
+    padding: 10px;
+    width: 100px;
+    height: 10px;
+  }
+footer{
+    color:whitesmoke;
+    background-color: green;
+    text-align: center;
+}
+.formulario{
+    border-radius: 43px 43px 43px 43px;
+    -moz-border-radius: 43px 43px 43px 43px;
+    -webkit-border-radius: 43px 43px 43px 43px;
+    border: 0px ridge #000000;
+    background-color:limegreen
+}
